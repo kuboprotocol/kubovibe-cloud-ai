@@ -3,6 +3,7 @@ services:
     name: kubovibe-cloud-ai
     runtime: node
     plan: free
+    rootDir: .
     buildCommand: npm install
     startCommand: npm start
     envVars:
