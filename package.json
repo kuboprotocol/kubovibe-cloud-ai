@@ -1,0 +1,30 @@
+{
+  "name": "kubovibe-cloud-ai",
+  "version": "1.0.0",
+  "description": "Kubo Vibe Cloud AI is a cloud computing platform with integrated artificial intelligence, combining Web2 and Web3 for building, deploying, and managing applications.",
+  "main": "KuboChatAgent.js",
+  "scripts": {
+    "start": "node KuboChatAgent.js",
+    "dev": "node --watch KuboChatAgent.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kubo",
+    "ai",
+    "cloud",
+    "web3",
+    "blockchain"
+  ],
+  "author": "Kubo Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
